@@ -1,8 +1,6 @@
 # Video-Tracking-based-on-Particle-Filter
-Video Tracking based on Particle Filter
 
 1、 算法：
-  
   1) 主要是利用粒子滤波来进行视频中物体的跟踪。
   
   2）在做粒子的权重计算时，使用的是与前一帧跟踪结果的相似性，相似性越高，粒子的权重越大。
