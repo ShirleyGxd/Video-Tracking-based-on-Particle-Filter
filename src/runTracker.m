@@ -4,7 +4,7 @@ clear;
 close all;
 
 %% Parameter initialization
-dataset = 'David'; % 'car' or 'David'
+dataset = 'car'; % 'car' or 'David'
 sz_I = [15, 15]; % width, height
 if strcmp(dataset, 'car')
     data_dir = '../data/car/imgs/';
